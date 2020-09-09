@@ -1,0 +1,89 @@
+.popup-menu {
+	width: 150px;
+	height: 100%;
+	padding: 100px 30px;
+
+	display: none;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+
+	position: fixed;
+	top: 0; 
+	left: -150px;
+	opacity: 0;
+
+	border-right: 2px solid black;
+	background-color: var(--second-color);
+	box-shadow: 0 0 150px 150px black;
+
+	transition: all .2s ease;
+}
+
+.active-menu {
+	left: 0px;
+	opacity: 1;
+}
+
+.popup-menu__list {
+	height: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+
+	list-style-type: none;
+}
+
+.popup-menu__link {
+	position: relative;
+
+	font-weight: 500;
+	font-size: 26px;
+	text-align: center;
+	color: var(--primary-color, #fff);
+
+	-webkit-tap-highlight-color: transparent;
+	text-shadow: 0 0 0px #fff;
+	transition: text-shadow .2s ease;
+}
+
+.popup-menu__link:active {
+	text-shadow: 0 0 10px #fff;
+}
+
+/* ======================= */
+
+.popup-menu__link:before {
+	content: '';
+	display: block;
+	width: 2px;
+	height: 0;
+	position: absolute;
+	bottom: 0px;
+	right: -8px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0px #fff;
+
+	transition: height .2s ease,
+		box-shadow .2s ease;
+}
+
+.popup-menu__link:active:before {
+	height: 100%;
+	box-shadow: 0 0 5px 2px #fff;
+}
+
+.popup-menu__link>.link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.popup-menu__link>.link:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+

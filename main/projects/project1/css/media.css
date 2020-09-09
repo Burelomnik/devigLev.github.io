@@ -1,0 +1,358 @@
+@media (max-width: 991.98px) {
+	.nav__link:after {
+		display: none;
+	}
+	.team__cards-list {
+		justify-content: space-between;
+	}
+	.team__card {
+		flex-basis: 28%;
+	}
+}
+
+@media (max-width: 768.98px), (max-width: 991.98px) and (max-height: 415px) and (orientation: landscape) {
+	.popup-menu {
+		display: flex;
+		padding-top: 70px;
+		padding-bottom: 30px;
+	}
+	.popup-menu__link{
+		font-size: 20px;
+	}
+	.container {
+		padding: 0 50px;
+	}
+
+	.banner_in-head {
+		min-height: 350px;
+	}
+
+	.banner_in-head__title {
+		font-size: 52px;
+	}
+
+	.nav__link {
+		display: none;
+	}
+
+	.menu {
+		display: flex;
+	}
+
+	.problem {
+		padding: 38px 0 62px 0;
+	}
+
+	.title {
+		font-size: 50px;
+	}
+
+	.text,
+	.text .strong {
+		font-size: 26px;
+	}
+
+	.problem__text {
+		margin-bottom: 28px;
+	}
+
+	.banner_in-middle {
+		min-height: 383px;
+	}
+
+	.banner_in-middle__quote {
+		font-size: 30px;
+	}
+
+	.introduction {
+		padding: 38px 0 62px 0;
+	}
+
+	.introduction__title {
+		margin-bottom: 24px;
+	}
+
+	.introduction__logo {
+		margin-right: 30px;
+		margin-bottom: 26px;
+	}
+
+	.introduction__text {
+		margin-bottom: 28px;
+	}
+
+	.team {
+		padding: 38px 0 62px 0;
+	}
+
+	.team__title {
+		margin-bottom: 32px;
+	}
+
+	.team__cards-list {
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.team__card {
+		flex-basis: 35%;
+	}
+
+	.team__card:nth-child(n) {
+		margin-bottom: 62px;
+	}
+	.team__card:nth-child(n+5) {
+		margin-bottom: 0;
+	}
+
+	.footer {
+		padding: 40px 0 52px 0;
+	}
+	.footer__text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 991.98px) and 
+(max-height: 415px) and 
+(orientation: landscape) {
+	.banner_in-head {
+		min-height: 330px;
+	}
+	.banner_in-head__title {
+		font-size: 48px;
+	}
+	.problem {
+		padding-top: 34px;
+		padding-bottom: 52px;
+	}
+	.title {
+		font-size: 44px;
+	}
+	.text, .text .strong {
+		font-size: 24px;
+		margin-bottom: 24px;
+	}
+	.banner_in-middle {
+		min-height: 310px;
+	}
+	.introduction {
+		padding-top: 34px;
+		padding-bottom: 52px;
+	}
+	.team {
+		padding-top: 34px;
+		padding-bottom: 52px;
+	}
+	.team__title {
+		margin-bottom: 16px;
+	}
+
+}
+
+@media (max-width: 575.98px) {
+
+	.upper-line,
+	.header,
+	.header__wrapper {
+		height: 70px;
+	}
+
+	.header__logo-img {
+		height: 36px;
+	}
+
+	.container {
+		padding: 0 24px;
+	}
+
+	.banner_in-head {
+		min-height: 220px;
+	}
+
+	.banner_in-head__title {
+		font-size: 36px;
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.text,
+	.text .strong {
+		font-size: 26px;
+	}
+
+	.problem {
+		padding: 38px 0 42px 0;
+	}
+
+	.problem__text {
+		margin-bottom: 28px;
+	}
+
+	.banner_in-middle {
+		min-height: 300px;
+	}
+
+	.banner_in-middle__quote {
+		font-size: 26px;
+	}
+
+	.introduction {
+		padding: 38px 0 42px 0;
+	}
+
+	.introduction__title {
+		margin-bottom: 24px;
+	}
+
+	.introduction__logo {
+		margin-right: 30px;
+		margin-bottom: 26px;
+	}
+
+	.introduction__logo-img {
+		width: 90px;
+	}
+
+	.introduction__text {
+		margin-bottom: 28px;
+	}
+
+	.team {
+		padding: 38px 0 42px 0;
+	}
+
+	.team__card {
+		flex-basis: 100%;
+	}
+
+	.team__card:nth-child(n) {
+		margin-bottom: 68px;
+	}
+	.team__card:nth-child(n+6) {
+		margin-bottom: 0;
+	}
+	.card__foto {
+		width: 50%;
+		margin-bottom: 12px;
+	}
+	.card__name {
+		font-size: 32px;
+	}
+	
+	.card__job-role {
+		font-size: 24px;
+	}
+	.footer {
+		padding: 50px 0 62px 0;
+	}
+	.footer__text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 575.98px) and (orientation: landscape) {
+	.team__card {
+		flex-basis: 50%;
+	}
+	
+	.team__card:nth-child(n) {
+		margin-bottom: 42px;
+	}
+	.team__card:nth-child(n+5) {
+		margin-bottom: 0;
+	}
+	.card__foto {
+		/* width: 50%; */
+		margin-bottom: 12px;
+	}
+	.card__name {
+		font-size: 26px;
+	}
+	
+	.card__job-role {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 319.98px) {
+	.container {
+		padding: 0 20px;
+	}
+	.header__logo {
+		overflow: hidden;
+		max-width: 40px;
+	}
+	.banner_in-head {
+		min-height: 180px;
+	}
+	.banner_in-head__title {
+		font-size: 28px;
+	}
+	.title {
+		font-size: 12vw;
+	}
+	.text, .text .strong {
+		font-size: 20px;
+	}
+	.banner_in-middle__quote {
+		font-size: 22px;
+	}
+	.introduction__logo {
+		display: none;
+	}
+
+	.team__card:nth-child(n) {
+		margin-bottom: 42px;
+	}
+	.team__card:last-child {
+		margin-bottom: 0;
+	}
+	.card__name {
+		font-size: 26px;
+	}
+	
+	.card__job-role {
+		font-size: 18px;
+	}
+	.footer {
+		padding: 50px 0 62px 0;
+	}
+	.footer__text {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 289.98px) {
+	
+	.text, .text .strong {
+		font-size: 18px;
+	}
+	.banner_in-middle__quote {
+		font-size: 20px;
+	}
+	.team__card:nth-child(n) {
+		margin-bottom: 42px;
+	}
+	.team__card:last-child {
+		margin-bottom: 0;
+	}
+	.card__name {
+		font-size: 16px;
+	}
+	.card__job-role {
+		font-size: 12px;
+	}
+}
+
+
+@media (orientation: landscape) and (max-width: 767.98px) and 
+(max-height: 415px) {
+	.upper-line,
+	.header,
+	.header__wrapper {
+		height: 64px;
+	}
+}

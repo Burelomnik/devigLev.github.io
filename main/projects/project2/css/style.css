@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: sans-serif;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.main-title {
+	font-size: 32px;
+}
+
+.table {
+	width: 100%;
+}
+
+.table,
+th,
+td {
+	border: 1px solid black;
+}
+
+.population-table tbody tr> :first-child {
+	font-weight: 700;
+}
+
+.population-table tfoot td {
+	font-weight: normal;
+}
+
+.container {
+	/* width: 100%; */
+	width: 100vw;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	width: 70%;
+	margin: 0 auto;
+	padding: 0 40px;
+	padding-top: 1.5em;
+
+	background-color: #ccc;
+}
+
+.section figure {
+	float: right;
+}
+
+.section>.subsection {
+	clear: both;
+}

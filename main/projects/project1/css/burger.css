@@ -1,0 +1,60 @@
+.menu {
+	display: none;
+	justify-content: flex-end;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	padding-right: 0;
+
+	cursor: pointer;
+}
+
+.burger {
+	width: 30px;
+	height: 4px;
+	position: relative;
+
+	background-color: var(--primary-color, #fff);
+	transition: width .3s, transform .3s;
+}
+
+.burger:before, .burger:after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 45px;
+	height: 4px;
+	background-color: var(--primary-color, #fff);
+
+	border-radius: 0;
+	transform: translate(0,0) rotate(0);
+	transition: width .3s, transform .3s, border-radius .3s;
+}
+
+.burger:before {
+	top: -15px;
+	right: 0;
+}
+.burger:after {
+	bottom: -15px;
+	right: 0;
+}
+
+.active > .burger_active {
+	transition: width .3s, transform .3s, border-radius .3s;
+	width: 40px;
+	border-radius: 5px;
+}
+
+.active > .burger_active:before {
+	transition: width .3s, transform .3s, border-radius .3s;
+	transform: translate(30%,12px) rotate(-90deg);
+	border-radius: 5px;
+}
+
+.active > .burger_active:after {
+	transition: width .3s, transform .3s, border-radius .3s;
+	transform: translate(-20%,-12px) rotate(90deg);
+	border-radius: 5px;
+}
